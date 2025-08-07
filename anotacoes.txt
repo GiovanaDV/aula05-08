@@ -1,0 +1,6 @@
+Recursividade 
+ - permite que uma função chame a si mesma pra resolver problemas complexos
+ - usada quando um problema pode ser dividido em partes menores semelhantes ao original
+
+vantagens: mais elegante e legível 
+desvantagens: pode consumir mais memoria, mais lenta em alguns casos

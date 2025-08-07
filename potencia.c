@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int potencia(int base, int expoente) {
-    if (expoente == 0) return 1;
-    return base * potencia(base, expoente - 1);
+    if (expoente == 0) return 1; // caso base
+    return base * potencia(base, expoente - 1); // chamada recursiva
 }
 
 int main() {
